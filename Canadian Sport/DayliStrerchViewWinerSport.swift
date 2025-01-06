@@ -28,6 +28,8 @@ struct DayliStrerchView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
             
+            Spacer()
+            
             HStack {
                 NavigationLink {
                     TrainingViewCanadian(sportType: .stretch)

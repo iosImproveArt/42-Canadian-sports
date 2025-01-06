@@ -8,7 +8,7 @@ struct ContentViewCanadian: View {
     @State var showLoading = true
     @State var selectedTab: Tabs = .home
     
-var wrfcwrf = "wrfcwrf"
+    var wrfcwrf = "wrfcwrf"
     var cfrc33rc3rfc3r = 299242
     func wrfcwrfc() -> Int {
         return 3525245
@@ -94,7 +94,7 @@ var wrfcwrf = "wrfcwrf"
                     Image("tab 1")
                         .renderingMode(.template)
                         .offset(y: 3)
-                        .foregroundColor(selectedTab == .home ? .hex("28073E"): .white)
+                        .foregroundColor(selectedTab == .home ? .hex("241F55"): .white)
                 }
             }
             
@@ -121,7 +121,7 @@ var wrfcwrf = "wrfcwrf"
                     Image("tab 2")
                         .renderingMode(.template)
                         .offset(y: 3)
-                        .foregroundColor(selectedTab == .profile ? .hex("28073E"): .white)
+                        .foregroundColor(selectedTab == .profile ? .hex("241F55"): .white)
                     
                 }
             }
@@ -149,7 +149,7 @@ var wrfcwrf = "wrfcwrf"
                     Image("tab 3")
                         .renderingMode(.template)
                         .offset(y: 3)
-                        .foregroundColor(selectedTab == .quotes ? .hex("28073E"): .white)
+                        .foregroundColor(selectedTab == .quotes ? .hex("241F55"): .white)
                     
                 }
             }
@@ -177,13 +177,13 @@ var wrfcwrf = "wrfcwrf"
                     Image("tab 4")
                         .renderingMode(.template)
                         .offset(y: 3)
-                        .foregroundColor(selectedTab == .stretch ? .hex("28073E"): .white)
+                        .foregroundColor(selectedTab == .stretch ? .hex("241F55"): .white)
                 }
             }
         }
         .padding(6)
         .padding(.horizontal, 20)
-        .background(Color.hex("28073E"))
+        .background(Color.hex("241F55"))
         .cornerRadius(55)
         .padding(.bottom)
     }

@@ -112,7 +112,7 @@ var wrfcwrf = "wrfcwrf"
                 Spacer()
                 
                 RoundedRectangle(cornerRadius: 11)
-                    .foregroundColor(.hex("28073E"))
+                    .foregroundColor(.hex("241F55"))
                     .overlay {
                         RoundedRectangle(cornerRadius: 11)
                             .stroke(lineWidth: 1)
@@ -130,7 +130,7 @@ var wrfcwrf = "wrfcwrf"
                 Spacer()
                 
                 RoundedRectangle(cornerRadius: 11)
-                    .foregroundColor(.hex("28073E"))
+                    .foregroundColor(.hex("241F55"))
                     .overlay {
                         RoundedRectangle(cornerRadius: 11)
                             .stroke(lineWidth: 1)
@@ -148,7 +148,7 @@ var wrfcwrf = "wrfcwrf"
                 Spacer()
                 
                 RoundedRectangle(cornerRadius: 11)
-                    .foregroundColor(.hex("28073E"))
+                    .foregroundColor(.hex("241F55"))
                     .overlay {
                         RoundedRectangle(cornerRadius: 11)
                             .stroke(lineWidth: 1)

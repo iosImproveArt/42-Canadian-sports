@@ -92,7 +92,7 @@ struct ProfileViewCanadian: View {
                         .padding(.horizontal)
                         .padding(.vertical, 14)
                         .background {
-                            Color.hex("28073E")
+                            Color.hex("241F55")
                         }
                         .cornerRadius(12)
                         .foregroundStyle(.white)
@@ -107,7 +107,7 @@ struct ProfileViewCanadian: View {
                         .padding(.horizontal)
                         .padding(.vertical, 14)
                         .background {
-                            Color.hex("28073E")
+                            Color.hex("241F55")
                         }
                         .cornerRadius(12)
                         .foregroundStyle(.white)
@@ -251,7 +251,7 @@ struct ProfileViewCanadian: View {
                 }
             }.padding()
                 .background {
-                    Color.hex("28073E")
+                    Color.hex("241F55")
                 }
                 .cornerRadius(12)
                 .onTapGesture {
