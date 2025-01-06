@@ -6,14 +6,14 @@ workflows:
         
         ios_signing:
             distribution_type: app_store
-            bundle_identifier: com.sportwiner
+            bundle_identifier: com.canadiansport
             
         groups:
             - DEFAULT
         vars:
-          BUNDLE_ID: "com.sportwiner"
-          XCODE_WORK: "Winer Sport.xcodeproj"
-          XCODE_SCHEME: "Winer Sport"
+          BUNDLE_ID: "com.canadiansport"
+          XCODE_WORK: "Canadian Sport.xcodeproj"
+          XCODE_SCHEME: "Canadian Sport"
           
       scripts:
         - name: Set up provisioning profiles settings on Xcode project
