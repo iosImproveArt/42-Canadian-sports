@@ -3,7 +3,6 @@ import SwiftUI
 
 struct ProfileViewCanadian: View {
     @Environment(\.dismiss) var dismiss
-    @AppStorage("selectedSport") var selectedSport = "cricket"
     @State var userPhoto = ""
     @State var userName = ""
     @State var userAge = ""
@@ -21,6 +20,12 @@ struct ProfileViewCanadian: View {
     @State private var showList = false
     
     let listOfSports = ["cricket", "volleyball", "basketball", "golf", "swimming", "football", "cycling", "gym", "boxing", "fencing", "stretch"]
+    
+    @AppStorage("secondsWaste") var secondsWaste = 0
+    @AppStorage("wasTrained") var wasTrained = false
+    @AppStorage("favourite") var favourite = ""
+    @AppStorage("kkcal") var kkcal = 0
+    @AppStorage("selectedSport") var selectedSport = "cricket"
     
     var wrfcwrf = "wrfcwrf"
     var cfrc33rc3rfc3r = 299242
@@ -141,6 +146,10 @@ struct ProfileViewCanadian: View {
                         userPhoto = ""
                         userWeight = ""
                         selectedSport = "cricket"
+                        secondsWaste = 0
+                        wasTrained = false
+                        favourite = ""
+                        kkcal = 0
                     } label: {
                         Image("profile.save")
                             .resizable()

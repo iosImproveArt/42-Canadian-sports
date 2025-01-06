@@ -102,6 +102,7 @@ struct HomeViewCanadian: View {
                     .padding(.bottom)
                 Spacer()
             }.gradientTopAndBottom()
+            
         }
     }
     
@@ -158,7 +159,8 @@ struct HomeViewCanadian: View {
                 
                 Spacer()
             }
-        }
+        }.scaleEffect(0.95)
+        .padding(.horizontal, -12)
     }
 }
 

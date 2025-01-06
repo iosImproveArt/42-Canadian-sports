@@ -104,7 +104,7 @@ var wrfcwrf = "wrfcwrf"
             Spacer()
             
             Text("The workout\nis complete!")
-                .withFont(size: 40, weight: .semibold, color: .hex("F9B05C"))
+                .withFont(size: 40, weight: .semibold, color: .hex("1FDB55"))
                 .padding(.vertical)
             
             HStack {
@@ -116,7 +116,7 @@ var wrfcwrf = "wrfcwrf"
                     .overlay {
                         RoundedRectangle(cornerRadius: 11)
                             .stroke(lineWidth: 1)
-                            .foregroundColor(.hex("FEE600"))
+                            .foregroundColor(.hex("1FDB55"))
                     }
                     .frame(width: 100, height: 40)
                     .overlay {
@@ -134,7 +134,7 @@ var wrfcwrf = "wrfcwrf"
                     .overlay {
                         RoundedRectangle(cornerRadius: 11)
                             .stroke(lineWidth: 1)
-                            .foregroundColor(.hex("FEE600"))
+                            .foregroundColor(.hex("1FDB55"))
                     }
                     .frame(width: 100, height: 40)
                     .overlay {
@@ -152,7 +152,7 @@ var wrfcwrf = "wrfcwrf"
                     .overlay {
                         RoundedRectangle(cornerRadius: 11)
                             .stroke(lineWidth: 1)
-                            .foregroundColor(.hex("FEE600"))
+                            .foregroundColor(.hex("1FDB55"))
                     }
                     .frame(width: 100, height: 40)
                     .overlay {
@@ -170,7 +170,7 @@ var wrfcwrf = "wrfcwrf"
                     .withFont(size: 18, weight: .medium, color: .hex("2E023F"))
                     .padding(.vertical, 11)
                     .padding(.horizontal, 30)
-                    .background(Color.hex("F9B05C"))
+                    .background(Color.hex("1FDB55"))
                     .cornerRadius(13.17)
             }
             .padding(.bottom)
