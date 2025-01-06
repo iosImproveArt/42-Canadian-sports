@@ -179,7 +179,7 @@ var wrfcwrf = "wrfcwrf"
 }
 
 #Preview {
-    TrainingViewCanadian(sportType: .basketball)
+    TrainingViewCanadian(sportType: .lacrosse)
 }
 
 class TrainViewModel: ObservableObject {
@@ -231,9 +231,9 @@ class TrainViewModel: ObservableObject {
 
 enum SportTypes: String {
     case tennis = "tennis"
-    case football = "football"
+    case cricket = "cricket"
     case volleyball = "volleyball"
-    case basketball = "basketball"
+    case lacrosse = "lacrosse"
     case golf = "golf"
     case stretch = "stretch"
 }

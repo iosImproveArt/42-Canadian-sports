@@ -39,9 +39,9 @@ struct HomeViewCanadian: View {
                     }.disabled(wasTrained)
                     
                     NavigationLink {
-                        TrainingViewCanadian(sportType: .football)
+                        TrainingViewCanadian(sportType: .cricket)
                     } label: {
-                        Image("football.label")
+                        Image("cricket.label")
                             .overlay {
                                 Image("block.label")
                                     .resizable()
@@ -51,9 +51,9 @@ struct HomeViewCanadian: View {
                     }.disabled(wasTrained)
                     
                     NavigationLink {
-                        TrainingViewCanadian(sportType: .basketball)
+                        TrainingViewCanadian(sportType: .lacrosse)
                     } label: {
-                        Image("basketball.label")
+                        Image("lacrosse.label")
                             .overlay {
                                 Image("block.label")
                                     .resizable()
@@ -91,7 +91,7 @@ struct HomeViewCanadian: View {
                     .scrollIndicators(.hidden)
                 
                 NavigationLink {
-                    TrainingViewCanadian(sportType: SportTypes(rawValue: favourite) ?? .basketball )
+                    TrainingViewCanadian(sportType: SportTypes(rawValue: favourite) ?? .lacrosse )
                 } label: {
                     Image("favourite.workout")
                 }.padding(.vertical)
@@ -169,9 +169,9 @@ struct HomeViewCanadian: View {
 
 enum Sports: String {
     case tennis = "tennis"
-    case football = "Football"
+    case cricket = "cricket"
     case volleyball = "Volleyball"
-    case basketball = "Basketball"
+    case lacrosse = "lacrosse"
     case golf = "golf"
     case fitneCanadian = "FitneCanadian"
     case yoga = "Yoga"

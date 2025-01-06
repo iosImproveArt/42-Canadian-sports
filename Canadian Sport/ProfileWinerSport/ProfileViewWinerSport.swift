@@ -3,7 +3,7 @@ import SwiftUI
 
 struct ProfileViewCanadian: View {
     @Environment(\.dismiss) var dismiss
-    @AppStorage("selectedSport") var selectedSport = "Football"
+    @AppStorage("selectedSport") var selectedSport = "cricket"
     @State var userPhoto = ""
     @State var userName = ""
     @State var userAge = ""
@@ -20,7 +20,7 @@ struct ProfileViewCanadian: View {
     
     @State private var showList = false
     
-    let listOfSports = ["Football", "Volleyball", "Basketball", "Golf", "Swimming", "Golf", "Cycling", "Gym", "Boxing", "Fencing", "Tennis"]
+    let listOfSports = ["cricket", "volleyball", "basketball", "golf", "swimming", "football", "cycling", "gym", "boxing", "fencing", "stretch"]
     
     var wrfcwrf = "wrfcwrf"
     var cfrc33rc3rfc3r = 299242
@@ -140,7 +140,7 @@ struct ProfileViewCanadian: View {
                         userAge = ""
                         userPhoto = ""
                         userWeight = ""
-                        selectedSport = "Football"
+                        selectedSport = "cricket"
                     } label: {
                         Image("profile.save")
                             .resizable()
@@ -211,7 +211,7 @@ struct ProfileViewCanadian: View {
                 .padding(.horizontal)
             
             VStack(spacing: 25) {
-                Text(selectedSport)
+                Text(selectedSport.description.capitalized)
                     .withFont(size: 16, weight: .regular)
                     .frame(maxWidth: .infinity)
                     .overlay {
@@ -229,7 +229,7 @@ struct ProfileViewCanadian: View {
                 
                 if showList {
                     ForEach(listOfSports.filter { $0 != selectedSport }, id: \.self) { sport in
-                        Text(sport)
+                        Text(sport.description.capitalized)
                             .withFont(size: 16, weight: .regular)
                             .frame(maxWidth: .infinity)
                             .overlay {
