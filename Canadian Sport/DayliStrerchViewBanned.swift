@@ -10,17 +10,18 @@ import SwiftUI
 struct DayliStrerchView: View {
     @AppStorage("wasTrained") var wasTrained = false
     
-    var wrfcwrf = "wrfcwrf"
-    var cfrc33rc3rfc3r = 299242
-    func wrfcwrfc() -> Int {
-        return 3525245
+    var y36y36by3 = "36yb36yb"
+    var v3rg3rgt3t = 365356
+    func b4y3tb() -> Float {
+        return 42542
     }
-    func xwefxwrf() {
+    func wrfwrf() {
         print("wrgverw")
         var _ = 2 + 2
         print("wrfc")
     }
-    var wcfwrfc = 25245
+    var wcrfrfcwrfcwrcf = "25245"
+    struct Refatcor {}
     
     var body: some View {
         VStack {
@@ -32,7 +33,7 @@ struct DayliStrerchView: View {
             
             HStack {
                 NavigationLink {
-                    TrainingViewCanadian(sportType: .stretch)
+                    TrainingViewBanned(sportType: .stretch)
                 } label: {
                     Text("Start")
                         .withFont(size: 18, weight: .medium, color: .hex("2E023F"))
@@ -53,5 +54,5 @@ struct DayliStrerchView: View {
 }
 
 #Preview {
-    ContentViewCanadian(showLoading: false, selectedTab: .stretch)
+    ContentViewBanned(showLoading: false, selectedTab: .stretch)
 }

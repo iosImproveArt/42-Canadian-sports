@@ -2,7 +2,7 @@
 
 import SwiftUI
 
-struct PrivacyViewCanadian: View {
+struct PrivacyViewBanned: View {
     @AppStorage("firstInApp") var firstInApp = true
     @Environment(\.dismiss) var dismiss
     @Binding var showLoading: Bool
@@ -14,17 +14,18 @@ struct PrivacyViewCanadian: View {
         urlString.isEmpty ? Color.hex("#2E2A65"): .black
     }
     
-var wrfcwrf = "wrfcwrf"
-    var cfrc33rc3rfc3r = 299242
-    func wrfcwrfc() -> Int {
-        return 3525245
+var y36y36by3 = "36yb36yb"
+    var v3rg3rgt3t = 365356
+    func b4y3tb() -> Float {
+        return 42542
     }
-    func xwefxwrf() {
+    func wrfwrf() {
         print("wrgverw")
         var _ = 2 + 2
         print("wrfc")
     }
-    var wcfwrfc = 25245
+    var wcrfrfcwrfcwrcf = "25245"
+    struct Refatcor {}
         
     var body: some View {
         VStack {
@@ -110,5 +111,5 @@ var wrfcwrf = "wrfcwrf"
 }
 
 #Preview {
-    PrivacyViewCanadian(showLoading: .constant(true), fromMainView: true)
+    PrivacyViewBanned(showLoading: .constant(true), fromMainView: true)
 }

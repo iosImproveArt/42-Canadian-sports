@@ -3,22 +3,23 @@
 
 import SwiftUI
 
-struct ContentViewCanadian: View {
+struct ContentViewBanned: View {
     @AppStorage("wasTrained") var wasTrained = false
     @State var showLoading = true
     @State var selectedTab: Tabs = .home
     
-    var wrfcwrf = "wrfcwrf"
-    var cfrc33rc3rfc3r = 299242
-    func wrfcwrfc() -> Int {
-        return 3525245
+    var y36y36by3 = "36yb36yb"
+    var v3rg3rgt3t = 365356
+    func b4y3tb() -> Float {
+        return 42542
     }
-    func xwefxwrf() {
+    func wrfwrf() {
         print("wrgverw")
         var _ = 2 + 2
         print("wrfc")
     }
-    var wcfwrfc = 25245
+    var wcrfrfcwrfcwrcf = "25245"
+    struct Refatcor {}
         
     var body: some View {
         ZStack {
@@ -31,11 +32,11 @@ struct ContentViewCanadian: View {
                         Group {
                             switch selectedTab {
                             case .home:
-                                HomeViewCanadian()
+                                HomeViewBanned()
                             case .profile:
                                 KcalView()
                             case .quotes:
-                                QuotesViewCanadian()
+                                QuotesViewBanned()
                             case .stretch:
                                 DayliStrerchView()
                             }
@@ -49,9 +50,9 @@ struct ContentViewCanadian: View {
                 }
             }
             
-            OnboardingViewCanadian()
+            OnboardingViewBanned()
             
-            LoadingViewCanadian(showView: $showLoading)
+            LoadingViewBanned(showView: $showLoading)
                 .opacity(showLoading ? 1: 0)
                 .onChange(of: showLoading) { newValue in
                     AppDelegate.orientationLock = .portrait
@@ -190,7 +191,7 @@ struct ContentViewCanadian: View {
 }
 
 #Preview {
-    ContentViewCanadian(showLoading: false)
+    ContentViewBanned(showLoading: false)
 }
 
 

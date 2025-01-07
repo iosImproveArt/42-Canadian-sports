@@ -3,31 +3,30 @@
 
 import SwiftUI
 
-struct HomeViewCanadian: View {
+struct HomeViewBanned: View {
     @AppStorage("secondsWaste") var secondsWaste = 0
     @AppStorage("wasTrained") var wasTrained = false
     
     @AppStorage("favourite") var favourite = ""
     
-    var wrfcwrf = "wrfcwrf"
-    var cfrc33rc3rfc3r = 299242
-    func wrfcwrfc() -> Int {
-        return 3525245
+    var y36y36by3 = "36yb36yb"
+    var v3rg3rgt3t = 365356
+    func b4y3tb() -> Float {
+        return 42542
     }
-    func xwefxwrf() {
+    func wrfwrf() {
         print("wrgverw")
         var _ = 2 + 2
         print("wrfc")
     }
-    
-    var wcfwrfc = 2524
-    
+    var wcrfrfcwrfcwrcf = "25245"
+    struct Refatcor {}
     var body: some View {
         VStack {
             ScrollView {
                 VStack {
                     NavigationLink {
-                        TrainingViewCanadian(sportType: .tennis)
+                        TrainingViewBanned(sportType: .tennis)
                     } label: {
                         Image("tennis.label")
                             .overlay {
@@ -39,7 +38,7 @@ struct HomeViewCanadian: View {
                     }.disabled(wasTrained)
                     
                     NavigationLink {
-                        TrainingViewCanadian(sportType: .cricket)
+                        TrainingViewBanned(sportType: .cricket)
                     } label: {
                         Image("cricket.label")
                             .overlay {
@@ -51,7 +50,7 @@ struct HomeViewCanadian: View {
                     }.disabled(wasTrained)
                     
                     NavigationLink {
-                        TrainingViewCanadian(sportType: .lacrosse)
+                        TrainingViewBanned(sportType: .lacrosse)
                     } label: {
                         Image("lacrosse.label")
                             .overlay {
@@ -63,7 +62,7 @@ struct HomeViewCanadian: View {
                     }.disabled(wasTrained)
                     
                     NavigationLink {
-                        TrainingViewCanadian(sportType: .volleyball)
+                        TrainingViewBanned(sportType: .volleyball)
                     } label: {
                         Image("volleyball.label")
                             .overlay {
@@ -75,7 +74,7 @@ struct HomeViewCanadian: View {
                     }.disabled(wasTrained)
                     
                     NavigationLink {
-                        TrainingViewCanadian(sportType: .golf)
+                        TrainingViewBanned(sportType: .golf)
                     } label: {
                         Image("golf.label")
                             .overlay {
@@ -91,7 +90,7 @@ struct HomeViewCanadian: View {
                     .scrollIndicators(.hidden)
                 
                 NavigationLink {
-                    TrainingViewCanadian(sportType: SportTypes(rawValue: favourite) ?? .lacrosse )
+                    TrainingViewBanned(sportType: SportTypes(rawValue: favourite) ?? .lacrosse )
                 } label: {
                     Image("favourite.workout")
                 }.padding(.vertical)
@@ -165,7 +164,7 @@ struct HomeViewCanadian: View {
 }
 
 #Preview {
-    ContentViewCanadian(showLoading: false, selectedTab: .home)
+    ContentViewBanned(showLoading: false, selectedTab: .home)
 }
 
 
@@ -175,7 +174,7 @@ enum Sports: String {
     case volleyball = "Volleyball"
     case lacrosse = "lacrosse"
     case golf = "golf"
-    case fitneCanadian = "FitneCanadian"
+    case fitneBanned = "FitneBanned"
     case yoga = "Yoga"
     case pilates = "Pilates"
     case stretch = "Stretch"

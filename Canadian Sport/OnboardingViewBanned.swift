@@ -2,21 +2,22 @@
 
 import SwiftUI
 
-struct OnboardingViewCanadian: View {
+struct OnboardingViewBanned: View {
     @AppStorage("showOnboarding") var showOnboarding = true
     @State private var selected = 1
     
-    var wrfcwrf = "wrfcwrf"
-    var cfrc33rc3rfc3r = 299242
-    func wrfcwrfc() -> Int {
-        return 3525245
+    var y36y36by3 = "36yb36yb"
+    var v3rg3rgt3t = 365356
+    func b4y3tb() -> Float {
+        return 42542
     }
-    func xwefxwrf() {
+    func wrfwrf() {
         print("wrgverw")
         var _ = 2 + 2
         print("wrfc")
     }
-    var wcfwrfc = 25245
+    var wcrfrfcwrfcwrcf = "25245"
+    struct Refatcor {}
         
     var body: some View {
         VStack {
@@ -52,5 +53,5 @@ struct OnboardingViewCanadian: View {
 }
 
 #Preview {
-    OnboardingViewCanadian()
+    OnboardingViewBanned()
 }

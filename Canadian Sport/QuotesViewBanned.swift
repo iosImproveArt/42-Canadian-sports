@@ -2,7 +2,7 @@
 
 import SwiftUI
 
-struct QuotesViewCanadian: View {
+struct QuotesViewBanned: View {
     let quotes: [String: String] = [
         "The only limit to our realization of tomorrow is our doubts of today." : "Franklin D. Roosevelt",
         "In the middle of every difficulty lies opportunity." : "Albert Einstein",
@@ -58,17 +58,18 @@ struct QuotesViewCanadian: View {
     @State var timer: Timer?
     @State var selectedQuote: Dictionary<String, String>.Element? = ("", "")
     
-    var wrfcwrf = "wrfcwrf"
-    var cfrc33rc3rfc3r = 299242
-    func wrfcwrfc() -> Int {
-        return 3525245
+    var y36y36by3 = "36yb36yb"
+    var v3rg3rgt3t = 365356
+    func b4y3tb() -> Float {
+        return 42542
     }
-    func xwefxwrf() {
+    func wrfwrf() {
         print("wrgverw")
         var _ = 2 + 2
         print("wrfc")
     }
-    var wcfwrfc = 25245
+    var wcrfrfcwrfcwrcf = "25245"
+    struct Refatcor {}
     
     var body: some View {
         VStack(alignment: .trailing) {
@@ -90,7 +91,7 @@ struct QuotesViewCanadian: View {
             Spacer()
             
             NavigationLink {
-                PrivacyViewCanadian(showLoading: .constant(true), fromMainView: true)
+                PrivacyViewBanned(showLoading: .constant(true), fromMainView: true)
             } label: {
                 Text("Privacy Policy")
                     .withFont(size: 18, weight: .light, color: .white)
@@ -118,6 +119,6 @@ struct QuotesViewCanadian: View {
 }
 
 #Preview {
-    ContentViewCanadian(showLoading: false, selectedTab: .quotes)
+    ContentViewBanned(showLoading: false, selectedTab: .quotes)
 }
 

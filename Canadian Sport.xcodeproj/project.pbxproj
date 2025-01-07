@@ -11,18 +11,18 @@
 		F6598ECB2D2C193200EB3A53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6598EC62D2C193200EB3A53 /* Assets.xcassets */; };
 		F6598ECC2D2C193200EB3A53 /* Canadian_SportApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6598EC72D2C193200EB3A53 /* Canadian_SportApp.swift */; };
 		F6598ECD2D2C193200EB3A53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6598EC82D2C193200EB3A53 /* ContentView.swift */; };
-		F6598EDF2D2C19CE00EB3A53 /* TrainingViewWinerSport.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6598EDB2D2C19CE00EB3A53 /* TrainingViewWinerSport.swift */; };
+		F6598EDF2D2C19CE00EB3A53 /* TrainingViewBanned.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6598EDB2D2C19CE00EB3A53 /* TrainingViewBanned.swift */; };
 		F6598EE02D2C19CE00EB3A53 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6598ED12D2C19CE00EB3A53 /* WebView.swift */; };
-		F6598EE12D2C19CE00EB3A53 /* LoadingViewWinerSport.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6598ECE2D2C19CE00EB3A53 /* LoadingViewWinerSport.swift */; };
-		F6598EE22D2C19CE00EB3A53 /* HomeViewWinerSport.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6598EDE2D2C19CE00EB3A53 /* HomeViewWinerSport.swift */; };
-		F6598EE32D2C19CE00EB3A53 /* ImagePickerWinerSport.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6598ED82D2C19CE00EB3A53 /* ImagePickerWinerSport.swift */; };
-		F6598EE42D2C19CE00EB3A53 /* DopomogaWinerSport.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6598ED52D2C19CE00EB3A53 /* DopomogaWinerSport.swift */; };
-		F6598EE52D2C19CE00EB3A53 /* QuotesViewWinerSport.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6598ED42D2C19CE00EB3A53 /* QuotesViewWinerSport.swift */; };
-		F6598EE62D2C19CE00EB3A53 /* ProfileViewWinerSport.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6598ED92D2C19CE00EB3A53 /* ProfileViewWinerSport.swift */; };
-		F6598EE72D2C19CE00EB3A53 /* DayliStrerchViewWinerSport.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6598ED62D2C19CE00EB3A53 /* DayliStrerchViewWinerSport.swift */; };
-		F6598EE82D2C19CE00EB3A53 /* PrivacyViewWinerSport.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6598ED02D2C19CE00EB3A53 /* PrivacyViewWinerSport.swift */; };
-		F6598EE92D2C19CE00EB3A53 /* KcalViewWinerSport.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6598ED72D2C19CE00EB3A53 /* KcalViewWinerSport.swift */; };
-		F6598EEA2D2C19CE00EB3A53 /* OnboardingViewWinerSport.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6598ED32D2C19CE00EB3A53 /* OnboardingViewWinerSport.swift */; };
+		F6598EE12D2C19CE00EB3A53 /* LoadingViewBanned.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6598ECE2D2C19CE00EB3A53 /* LoadingViewBanned.swift */; };
+		F6598EE22D2C19CE00EB3A53 /* HomeViewBanned.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6598EDE2D2C19CE00EB3A53 /* HomeViewBanned.swift */; };
+		F6598EE32D2C19CE00EB3A53 /* ImagePickerBanned.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6598ED82D2C19CE00EB3A53 /* ImagePickerBanned.swift */; };
+		F6598EE42D2C19CE00EB3A53 /* DopomogaBanned.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6598ED52D2C19CE00EB3A53 /* DopomogaBanned.swift */; };
+		F6598EE52D2C19CE00EB3A53 /* QuotesViewBanned.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6598ED42D2C19CE00EB3A53 /* QuotesViewBanned.swift */; };
+		F6598EE62D2C19CE00EB3A53 /* ProfileViewBanned.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6598ED92D2C19CE00EB3A53 /* ProfileViewBanned.swift */; };
+		F6598EE72D2C19CE00EB3A53 /* DayliStrerchViewBanned.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6598ED62D2C19CE00EB3A53 /* DayliStrerchViewBanned.swift */; };
+		F6598EE82D2C19CE00EB3A53 /* PrivacyViewBanned.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6598ED02D2C19CE00EB3A53 /* PrivacyViewBanned.swift */; };
+		F6598EE92D2C19CE00EB3A53 /* KcalViewBanned.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6598ED72D2C19CE00EB3A53 /* KcalViewBanned.swift */; };
+		F6598EEA2D2C19CE00EB3A53 /* OnboardingViewBanned.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6598ED32D2C19CE00EB3A53 /* OnboardingViewBanned.swift */; };
 		F6598EEB2D2C19CE00EB3A53 /* privacy.html in Resources */ = {isa = PBXBuildFile; fileRef = F6598ECF2D2C19CE00EB3A53 /* privacy.html */; };
 		F6598EEC2D2C19CE00EB3A53 /* sport.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6598EDC2D2C19CE00EB3A53 /* sport.xcassets */; };
 /* End PBXBuildFile section */
@@ -33,20 +33,20 @@
 		F6598EC62D2C193200EB3A53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6598EC72D2C193200EB3A53 /* Canadian_SportApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canadian_SportApp.swift; sourceTree = "<group>"; };
 		F6598EC82D2C193200EB3A53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F6598ECE2D2C19CE00EB3A53 /* LoadingViewWinerSport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewWinerSport.swift; sourceTree = "<group>"; };
+		F6598ECE2D2C19CE00EB3A53 /* LoadingViewBanned.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewBanned.swift; sourceTree = "<group>"; };
 		F6598ECF2D2C19CE00EB3A53 /* privacy.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = privacy.html; sourceTree = "<group>"; };
-		F6598ED02D2C19CE00EB3A53 /* PrivacyViewWinerSport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyViewWinerSport.swift; sourceTree = "<group>"; };
+		F6598ED02D2C19CE00EB3A53 /* PrivacyViewBanned.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyViewBanned.swift; sourceTree = "<group>"; };
 		F6598ED12D2C19CE00EB3A53 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
-		F6598ED32D2C19CE00EB3A53 /* OnboardingViewWinerSport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewWinerSport.swift; sourceTree = "<group>"; };
-		F6598ED42D2C19CE00EB3A53 /* QuotesViewWinerSport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewWinerSport.swift; sourceTree = "<group>"; };
-		F6598ED52D2C19CE00EB3A53 /* DopomogaWinerSport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DopomogaWinerSport.swift; sourceTree = "<group>"; };
-		F6598ED62D2C19CE00EB3A53 /* DayliStrerchViewWinerSport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayliStrerchViewWinerSport.swift; sourceTree = "<group>"; };
-		F6598ED72D2C19CE00EB3A53 /* KcalViewWinerSport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KcalViewWinerSport.swift; sourceTree = "<group>"; };
-		F6598ED82D2C19CE00EB3A53 /* ImagePickerWinerSport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerWinerSport.swift; sourceTree = "<group>"; };
-		F6598ED92D2C19CE00EB3A53 /* ProfileViewWinerSport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewWinerSport.swift; sourceTree = "<group>"; };
-		F6598EDB2D2C19CE00EB3A53 /* TrainingViewWinerSport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingViewWinerSport.swift; sourceTree = "<group>"; };
+		F6598ED32D2C19CE00EB3A53 /* OnboardingViewBanned.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewBanned.swift; sourceTree = "<group>"; };
+		F6598ED42D2C19CE00EB3A53 /* QuotesViewBanned.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewBanned.swift; sourceTree = "<group>"; };
+		F6598ED52D2C19CE00EB3A53 /* DopomogaBanned.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DopomogaBanned.swift; sourceTree = "<group>"; };
+		F6598ED62D2C19CE00EB3A53 /* DayliStrerchViewBanned.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayliStrerchViewBanned.swift; sourceTree = "<group>"; };
+		F6598ED72D2C19CE00EB3A53 /* KcalViewBanned.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KcalViewBanned.swift; sourceTree = "<group>"; };
+		F6598ED82D2C19CE00EB3A53 /* ImagePickerBanned.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerBanned.swift; sourceTree = "<group>"; };
+		F6598ED92D2C19CE00EB3A53 /* ProfileViewBanned.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewBanned.swift; sourceTree = "<group>"; };
+		F6598EDB2D2C19CE00EB3A53 /* TrainingViewBanned.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingViewBanned.swift; sourceTree = "<group>"; };
 		F6598EDC2D2C19CE00EB3A53 /* sport.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = sport.xcassets; sourceTree = "<group>"; };
-		F6598EDE2D2C19CE00EB3A53 /* HomeViewWinerSport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewWinerSport.swift; sourceTree = "<group>"; };
+		F6598EDE2D2C19CE00EB3A53 /* HomeViewBanned.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewBanned.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,14 +90,14 @@
 				F6598EC72D2C193200EB3A53 /* Canadian_SportApp.swift */,
 				F6598EC82D2C193200EB3A53 /* ContentView.swift */,
 				F6598ED22D2C19CE00EB3A53 /* Loading G */,
-				F6598ED32D2C19CE00EB3A53 /* OnboardingViewWinerSport.swift */,
-				F6598ED42D2C19CE00EB3A53 /* QuotesViewWinerSport.swift */,
-				F6598ED52D2C19CE00EB3A53 /* DopomogaWinerSport.swift */,
-				F6598ED62D2C19CE00EB3A53 /* DayliStrerchViewWinerSport.swift */,
-				F6598ED72D2C19CE00EB3A53 /* KcalViewWinerSport.swift */,
-				F6598EDA2D2C19CE00EB3A53 /* ProfileWinerSport */,
-				F6598EDD2D2C19CE00EB3A53 /* TreshaWinerSport */,
-				F6598EDE2D2C19CE00EB3A53 /* HomeViewWinerSport.swift */,
+				F6598ED32D2C19CE00EB3A53 /* OnboardingViewBanned.swift */,
+				F6598ED42D2C19CE00EB3A53 /* QuotesViewBanned.swift */,
+				F6598ED52D2C19CE00EB3A53 /* DopomogaBanned.swift */,
+				F6598ED62D2C19CE00EB3A53 /* DayliStrerchViewBanned.swift */,
+				F6598ED72D2C19CE00EB3A53 /* KcalViewBanned.swift */,
+				F6598EDA2D2C19CE00EB3A53 /* ProfileBanned */,
+				F6598EDD2D2C19CE00EB3A53 /* TreshaBanned */,
+				F6598EDE2D2C19CE00EB3A53 /* HomeViewBanned.swift */,
 				F6598EC62D2C193200EB3A53 /* Assets.xcassets */,
 				F6598EC52D2C193200EB3A53 /* Preview Content */,
 			);
@@ -107,30 +107,30 @@
 		F6598ED22D2C19CE00EB3A53 /* Loading G */ = {
 			isa = PBXGroup;
 			children = (
-				F6598ECE2D2C19CE00EB3A53 /* LoadingViewWinerSport.swift */,
+				F6598ECE2D2C19CE00EB3A53 /* LoadingViewBanned.swift */,
 				F6598ECF2D2C19CE00EB3A53 /* privacy.html */,
-				F6598ED02D2C19CE00EB3A53 /* PrivacyViewWinerSport.swift */,
+				F6598ED02D2C19CE00EB3A53 /* PrivacyViewBanned.swift */,
 				F6598ED12D2C19CE00EB3A53 /* WebView.swift */,
 			);
 			path = "Loading G";
 			sourceTree = "<group>";
 		};
-		F6598EDA2D2C19CE00EB3A53 /* ProfileWinerSport */ = {
+		F6598EDA2D2C19CE00EB3A53 /* ProfileBanned */ = {
 			isa = PBXGroup;
 			children = (
-				F6598ED82D2C19CE00EB3A53 /* ImagePickerWinerSport.swift */,
-				F6598ED92D2C19CE00EB3A53 /* ProfileViewWinerSport.swift */,
+				F6598ED82D2C19CE00EB3A53 /* ImagePickerBanned.swift */,
+				F6598ED92D2C19CE00EB3A53 /* ProfileViewBanned.swift */,
 			);
-			path = ProfileWinerSport;
+			path = ProfileBanned;
 			sourceTree = "<group>";
 		};
-		F6598EDD2D2C19CE00EB3A53 /* TreshaWinerSport */ = {
+		F6598EDD2D2C19CE00EB3A53 /* TreshaBanned */ = {
 			isa = PBXGroup;
 			children = (
-				F6598EDB2D2C19CE00EB3A53 /* TrainingViewWinerSport.swift */,
+				F6598EDB2D2C19CE00EB3A53 /* TrainingViewBanned.swift */,
 				F6598EDC2D2C19CE00EB3A53 /* sport.xcassets */,
 			);
-			path = TreshaWinerSport;
+			path = TreshaBanned;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,18 +209,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6598ECC2D2C193200EB3A53 /* Canadian_SportApp.swift in Sources */,
-				F6598EDF2D2C19CE00EB3A53 /* TrainingViewWinerSport.swift in Sources */,
+				F6598EDF2D2C19CE00EB3A53 /* TrainingViewBanned.swift in Sources */,
 				F6598EE02D2C19CE00EB3A53 /* WebView.swift in Sources */,
-				F6598EE12D2C19CE00EB3A53 /* LoadingViewWinerSport.swift in Sources */,
-				F6598EE22D2C19CE00EB3A53 /* HomeViewWinerSport.swift in Sources */,
-				F6598EE32D2C19CE00EB3A53 /* ImagePickerWinerSport.swift in Sources */,
-				F6598EE42D2C19CE00EB3A53 /* DopomogaWinerSport.swift in Sources */,
-				F6598EE52D2C19CE00EB3A53 /* QuotesViewWinerSport.swift in Sources */,
-				F6598EE62D2C19CE00EB3A53 /* ProfileViewWinerSport.swift in Sources */,
-				F6598EE72D2C19CE00EB3A53 /* DayliStrerchViewWinerSport.swift in Sources */,
-				F6598EE82D2C19CE00EB3A53 /* PrivacyViewWinerSport.swift in Sources */,
-				F6598EE92D2C19CE00EB3A53 /* KcalViewWinerSport.swift in Sources */,
-				F6598EEA2D2C19CE00EB3A53 /* OnboardingViewWinerSport.swift in Sources */,
+				F6598EE12D2C19CE00EB3A53 /* LoadingViewBanned.swift in Sources */,
+				F6598EE22D2C19CE00EB3A53 /* HomeViewBanned.swift in Sources */,
+				F6598EE32D2C19CE00EB3A53 /* ImagePickerBanned.swift in Sources */,
+				F6598EE42D2C19CE00EB3A53 /* DopomogaBanned.swift in Sources */,
+				F6598EE52D2C19CE00EB3A53 /* QuotesViewBanned.swift in Sources */,
+				F6598EE62D2C19CE00EB3A53 /* ProfileViewBanned.swift in Sources */,
+				F6598EE72D2C19CE00EB3A53 /* DayliStrerchViewBanned.swift in Sources */,
+				F6598EE82D2C19CE00EB3A53 /* PrivacyViewBanned.swift in Sources */,
+				F6598EE92D2C19CE00EB3A53 /* KcalViewBanned.swift in Sources */,
+				F6598EEA2D2C19CE00EB3A53 /* OnboardingViewBanned.swift in Sources */,
 				F6598ECD2D2C193200EB3A53 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

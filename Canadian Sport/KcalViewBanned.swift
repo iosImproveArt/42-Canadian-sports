@@ -18,17 +18,18 @@ struct KcalView: View {
     @State private var showInfoSheet = false
     
     
-    var wrfcwrf = "wrfcwrf"
-    var cfrc33rc3rfc3r = 299242
-    func wrfcwrfc() -> Int {
-        return 3525245
+    var y36y36by3 = "36yb36yb"
+    var v3rg3rgt3t = 365356
+    func b4y3tb() -> Float {
+        return 42542
     }
-    func xwefxwrf() {
+    func wrfwrf() {
         print("wrgverw")
         var _ = 2 + 2
         print("wrfc")
     }
-    var wcfwrfc = 25245
+    var wcrfrfcwrfcwrcf = "25245"
+    struct Refatcor {}
     
     
     var body: some View {
@@ -155,7 +156,7 @@ struct KcalView: View {
         }.grayscale(showInfoSheet ? 1: 0)
             .animation(.easeInOut, value: showInfoSheet)
         .sheet(isPresented: $showSheet) {
-            ProfileViewCanadian()
+            ProfileViewBanned()
                 .presentationDetents([.fraction(0.9)])
         }
         .sheet(isPresented: $showInfoSheet) {
@@ -192,7 +193,7 @@ struct KcalView: View {
                         .withFont(size: 18, weight: .regular)
                     Link("Read Online (PDF)", destination: URL(string: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1680745/")!)
                     
-                    Text("- Roza AM, Shizgal HM. \"The Harris Benedict equation reevaluated: resting energy requirements and the body cell maCanadian,\" American Journal of Clinical Nutrition, 1984.")
+                    Text("- Roza AM, Shizgal HM. \"The Harris Benedict equation reevaluated: resting energy requirements and the body cell maBanned,\" American Journal of Clinical Nutrition, 1984.")
                         .withFont(size: 18, weight: .regular)
                     Link("Source on PubMed", destination: URL(string: "https://pubmed.ncbi.nlm.nih.gov/6741850/")!)
                     
@@ -430,5 +431,5 @@ struct KcalView: View {
 }
 
 #Preview {
-    ContentViewCanadian(showLoading: false, selectedTab: .profile)
+    ContentViewBanned(showLoading: false, selectedTab: .profile)
 }
