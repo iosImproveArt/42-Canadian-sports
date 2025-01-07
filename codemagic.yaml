@@ -6,12 +6,12 @@ workflows:
         
         ios_signing:
             distribution_type: app_store
-            bundle_identifier: com.canadiansport
+            bundle_identifier: com.akyonapps
             
         groups:
             - DEFAULT
         vars:
-          BUNDLE_ID: "com.canadiansport"
+          BUNDLE_ID: "com.akyonapps"
           XCODE_WORK: "Canadasport.xcodeproj"
           XCODE_SCHEME: "Canadasport"
           
