@@ -92,7 +92,7 @@ var y36y36by3 = "36yb36yb"
                         vm.favourite = vm.sportType.rawValue
                     }
                 } label: {
-                    Image("favourite.button")
+                    Image("favourite.button4")
                         .renderingMode(.template)
                         .foregroundStyle(vm.favourite == vm.sportType.rawValue ? .pink : .white)
                 }
@@ -109,7 +109,7 @@ var y36y36by3 = "36yb36yb"
                 .padding(.vertical)
             
             HStack {
-                Image("rating.label 1")
+                Image("rating.label4")
                 Spacer()
                 
                 RoundedRectangle(cornerRadius: 11)
@@ -127,7 +127,7 @@ var y36y36by3 = "36yb36yb"
             }
             
             HStack {
-                Image("time.label")
+                Image("time.label4")
                 Spacer()
                 
                 RoundedRectangle(cornerRadius: 11)
@@ -145,7 +145,7 @@ var y36y36by3 = "36yb36yb"
             }
             
             HStack {
-                Image("rate.label")
+                Image("rate.label4")
                 Spacer()
                 
                 RoundedRectangle(cornerRadius: 11)

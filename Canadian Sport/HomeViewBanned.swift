@@ -28,9 +28,9 @@ struct HomeViewBanned: View {
                     NavigationLink {
                         TrainingViewBanned(sportType: .tennis)
                     } label: {
-                        Image("tennis.label")
+                        Image("tennis.label4")
                             .overlay {
-                                Image("block.label")
+                                Image("block.label4")
                                     .resizable()
                                     .aspectRatio(contentMode: .fit)
                                     .opacity(wasTrained ? 1: 0)
@@ -40,9 +40,9 @@ struct HomeViewBanned: View {
                     NavigationLink {
                         TrainingViewBanned(sportType: .cricket)
                     } label: {
-                        Image("cricket.label")
+                        Image("Cricket.label4")
                             .overlay {
-                                Image("block.label")
+                                Image("block.label4")
                                     .resizable()
                                     .aspectRatio(contentMode: .fit)
                                     .opacity(wasTrained ? 1: 0)
@@ -52,9 +52,9 @@ struct HomeViewBanned: View {
                     NavigationLink {
                         TrainingViewBanned(sportType: .lacrosse)
                     } label: {
-                        Image("lacrosse.label")
+                        Image("lacrosse.label4")
                             .overlay {
-                                Image("block.label")
+                                Image("block.label4")
                                     .resizable()
                                     .aspectRatio(contentMode: .fit)
                                     .opacity(wasTrained ? 1: 0)
@@ -64,9 +64,9 @@ struct HomeViewBanned: View {
                     NavigationLink {
                         TrainingViewBanned(sportType: .volleyball)
                     } label: {
-                        Image("volleyball.label")
+                        Image("volleyball.label4")
                             .overlay {
-                                Image("block.label")
+                                Image("block.label4")
                                     .resizable()
                                     .aspectRatio(contentMode: .fit)
                                     .opacity(wasTrained ? 1: 0)
@@ -76,9 +76,9 @@ struct HomeViewBanned: View {
                     NavigationLink {
                         TrainingViewBanned(sportType: .golf)
                     } label: {
-                        Image("golf.label")
+                        Image("golf.label4")
                             .overlay {
-                                Image("block.label")
+                                Image("block.label4")
                                     .resizable()
                                     .aspectRatio(contentMode: .fit)
                                     .opacity(wasTrained ? 1: 0)
@@ -92,7 +92,7 @@ struct HomeViewBanned: View {
                 NavigationLink {
                     TrainingViewBanned(sportType: SportTypes(rawValue: favourite) ?? .lacrosse )
                 } label: {
-                    Image("favourite.workout")
+                    Image("favourite.workout4")
                 }.padding(.vertical)
                     .disabled(favourite == "")
                     .grayscale(favourite == "" ? 1 : 0)
@@ -111,8 +111,8 @@ struct HomeViewBanned: View {
                 Spacer()
                 
                 VStack {
-                    Image("workouts.label")
-                    Image("homefield.label")
+                    Image("workouts.label4")
+                    Image("homefield.label4")
                         .overlay {
                             Text(wasTrained ? "1": "0")
                                 .withFont(size: 22.66, weight: .regular)
@@ -122,8 +122,8 @@ struct HomeViewBanned: View {
                 Spacer()
                 
                 VStack {
-                    Image("workouttime.label")
-                    Image("homefield.label")
+                    Image("workouttime.label4")
+                    Image("homefield.label4")
                         .overlay {
                             Text("\(secondsWaste / 60) min")
                                 .withFont(size: 22.66, weight: .regular)
@@ -137,8 +137,8 @@ struct HomeViewBanned: View {
                 Spacer()
                 
                 VStack {
-                    Image("lastworkout.label")
-                    Image("homefield.label")
+                    Image("lastworkout.label4")
+                    Image("homefield.label4")
                         .overlay {
                             Text(wasTrained ? formattedDateString(): "-")
                                 .withFont(size: 22.66, weight: .regular)
@@ -148,8 +148,8 @@ struct HomeViewBanned: View {
                 Spacer()
                 
                 VStack {
-                    Image("rating.label")
-                    Image("homefield.label")
+                    Image("rate.label 1")
+                    Image("homefield.label4")
                         .overlay {
                             Text(wasTrained ? "976/1000": "-/1000")
                                 .withFont(size: 22.66, weight: .regular)

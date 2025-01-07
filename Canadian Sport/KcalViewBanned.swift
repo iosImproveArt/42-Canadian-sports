@@ -66,7 +66,7 @@ struct KcalView: View {
                 }
                 
                 HStack(alignment: .bottom) {
-                    Image("kcal.bg")
+                    Image("kcal.bg4")
                         .overlay {
                             VStack {
                                 Text("Calories")
@@ -79,7 +79,7 @@ struct KcalView: View {
                             }
                         }
                     
-                    Image("kcal.bg")
+                    Image("kcal.bg4")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .overlay {
@@ -96,7 +96,7 @@ struct KcalView: View {
                             }
                         }
                     
-                    Image("kcal.bg")
+                    Image("kcal.bg4")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .overlay {
@@ -112,7 +112,7 @@ struct KcalView: View {
                             }
                         }
                     
-                    Image("kcal.bg")
+                    Image("kcal.bg4")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .overlay {
@@ -130,7 +130,7 @@ struct KcalView: View {
                 }
                 
                 
-                Image("kcal.table")
+                Image("kcal.table4")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .overlay(alignment: .bottom) {
@@ -250,7 +250,7 @@ struct KcalView: View {
                         Button {
                             lifestyle = 1
                         } label: {
-                            Image("kcal.chek.field")
+                            Image("kcal.chek.field4")
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
                                 .overlay {
@@ -266,7 +266,7 @@ struct KcalView: View {
                         Button {
                             lifestyle = 2
                         } label: {
-                            Image("kcal.chek.field")
+                            Image("kcal.chek.field4")
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
                                 .overlay {
@@ -282,7 +282,7 @@ struct KcalView: View {
                         Button {
                             lifestyle = 3
                         } label: {
-                            Image("kcal.chek.field")
+                            Image("kcal.chek.field4")
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
                                 .overlay {
@@ -298,7 +298,7 @@ struct KcalView: View {
                         Button {
                             lifestyle = 4
                         } label: {
-                            Image("kcal.chek.field")
+                            Image("kcal.chek.field4")
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
                                 .overlay {
@@ -320,7 +320,7 @@ struct KcalView: View {
                     Button {
                         sportgoal = 1
                     } label: {
-                        Image("kcal.chek.field")
+                        Image("kcal.chek.field4")
                             .resizable()
                             .aspectRatio(contentMode: .fit)
                             .overlay {
@@ -336,7 +336,7 @@ struct KcalView: View {
                     Button {
                         sportgoal = 2
                     } label: {
-                        Image("kcal.chek.field")
+                        Image("kcal.chek.field4")
                             .resizable()
                             .aspectRatio(contentMode: .fit)
                             .overlay {
@@ -352,7 +352,7 @@ struct KcalView: View {
                     Button {
                         sportgoal = 3
                     } label: {
-                        Image("kcal.chek.field")
+                        Image("kcal.chek.field4")
                             .resizable()
                             .aspectRatio(contentMode: .fit)
                             .overlay {
