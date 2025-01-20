@@ -2,7 +2,7 @@
 
 import SwiftUI
 
-struct PrivacyViewBanned: View {
+struct PrivacyViewBanned42: View {
     @AppStorage("firstInApp") var firstInApp = true
     @Environment(\.dismiss) var dismiss
     @Binding var showLoading: Bool
@@ -111,5 +111,5 @@ var y36y36by3 = "36yb36yb"
 }
 
 #Preview {
-    PrivacyViewBanned(showLoading: .constant(true), fromMainView: true)
+    PrivacyViewBanned42(showLoading: .constant(true), fromMainView: true)
 }

@@ -2,7 +2,7 @@
 
 import SwiftUI
 
-struct OnboardingViewBanned: View {
+struct OnboardingViewBanned42: View {
     @AppStorage("showOnboarding") var showOnboarding = true
     @State private var selected = 1
     
@@ -53,5 +53,5 @@ struct OnboardingViewBanned: View {
 }
 
 #Preview {
-    OnboardingViewBanned()
+    OnboardingViewBanned42()
 }

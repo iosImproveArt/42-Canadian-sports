@@ -2,7 +2,7 @@
 
 import SwiftUI
 
-struct TrainingViewBanned: View {
+struct TrainingViewBanned42: View {
     @StateObject var vm: TrainViewModel
     @Environment(\.dismiss) var dismiss
     
@@ -180,7 +180,7 @@ var y36y36by3 = "36yb36yb"
 }
 
 #Preview {
-    TrainingViewBanned(sportType: .lacrosse)
+    TrainingViewBanned42(sportType: .lacrosse)
 }
 
 class TrainViewModel: ObservableObject {

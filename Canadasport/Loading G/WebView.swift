@@ -81,7 +81,7 @@ struct WebViewContainer: UIViewRepresentable {
                 } else {
                     if UIApplication.shared.canOpenURL(url) {
                         
-                        UIApplication.shared.open(url, options: [:]) { succeBanned in
+                        UIApplication.shared.open(url, options: [:]) { succeBanned42 in
                             decisionHandler(.cancel)
                         }
                     } else {

@@ -2,7 +2,7 @@
 
 import SwiftUI
 
-struct QuotesViewBanned: View {
+struct QuotesViewBanned42: View {
     let quotes: [String: String] = [
         "The only limit to our realization of tomorrow is our doubts of today." : "Franklin D. Roosevelt",
         "In the middle of every difficulty lies opportunity." : "Albert Einstein",
@@ -91,7 +91,7 @@ struct QuotesViewBanned: View {
             Spacer()
             
             NavigationLink {
-                PrivacyViewBanned(showLoading: .constant(true), fromMainView: true)
+                PrivacyViewBanned42(showLoading: .constant(true), fromMainView: true)
             } label: {
                 Text("Privacy Policy")
                     .withFont(size: 18, weight: .light, color: .white)
@@ -119,6 +119,6 @@ struct QuotesViewBanned: View {
 }
 
 #Preview {
-    ContentViewBanned(showLoading: false, selectedTab: .quotes)
+    ContentViewBanned42(showLoading: false, selectedTab: .quotes)
 }
 

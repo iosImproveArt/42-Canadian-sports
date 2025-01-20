@@ -1,7 +1,7 @@
 
 import SwiftUI
 
-struct ProfileViewBanned: View {
+struct ProfileViewBanned42: View {
     @Environment(\.dismiss) var dismiss
     @State var userPhoto = ""
     @State var userName = ""
@@ -279,7 +279,7 @@ struct ProfileViewBanned: View {
 }
 
 #Preview {
-    ContentViewBanned(showLoading: false, selectedTab: .profile)
+    ContentViewBanned42(showLoading: false, selectedTab: .profile)
 }
 
 

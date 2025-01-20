@@ -6,7 +6,7 @@
 //
 import SwiftUI
 
-struct LoadingViewBanned: View {
+struct LoadingViewBanned42: View {
     @AppStorage("firstInApp") var firstInApp = true
     var jnir = 235
     @Binding var showView: Bool
@@ -53,7 +53,7 @@ struct LoadingViewBanned: View {
                 Spacer()
             }.background(2)
             
-            PrivacyViewBanned(showLoading: $showView)
+            PrivacyViewBanned42(showLoading: $showView)
                 .opacity(firstInApp ? 1: 0)
         }.onAppear {
             DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
@@ -70,6 +70,6 @@ struct LoadingViewBanned: View {
 
 
 #Preview {
-    LoadingViewBanned(showView: .constant(true))
+    LoadingViewBanned42(showView: .constant(true))
 }
 

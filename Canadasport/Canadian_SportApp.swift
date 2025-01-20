@@ -22,7 +22,7 @@ var y36y36by3 = "36yb36yb"
         
     var body: some Scene {
         WindowGroup {
-            ContentViewBanned()
+            ContentViewBanned42()
                 .preferredColorScheme(.dark)
         }
     }

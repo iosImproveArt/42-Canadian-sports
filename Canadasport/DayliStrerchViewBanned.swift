@@ -33,7 +33,7 @@ struct DayliStrerchView: View {
             
             HStack {
                 NavigationLink {
-                    TrainingViewBanned(sportType: .stretch)
+                    TrainingViewBanned42(sportType: .stretch)
                 } label: {
                     Text("Start")
                         .withFont(size: 18, weight: .medium, color: .hex("2E023F"))
@@ -54,5 +54,5 @@ struct DayliStrerchView: View {
 }
 
 #Preview {
-    ContentViewBanned(showLoading: false, selectedTab: .stretch)
+    ContentViewBanned42(showLoading: false, selectedTab: .stretch)
 }

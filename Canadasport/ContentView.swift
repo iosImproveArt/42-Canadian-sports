@@ -3,7 +3,7 @@
 
 import SwiftUI
 
-struct ContentViewBanned: View {
+struct ContentViewBanned42: View {
     @AppStorage("wasTrained") var wasTrained = false
     @State var showLoading = true
     @State var selectedTab: Tabs = .home
@@ -32,11 +32,11 @@ struct ContentViewBanned: View {
                         Group {
                             switch selectedTab {
                             case .home:
-                                HomeViewBanned()
+                                HomeViewBanned42()
                             case .profile:
                                 KcalView()
                             case .quotes:
-                                QuotesViewBanned()
+                                QuotesViewBanned42()
                             case .stretch:
                                 DayliStrerchView()
                             }
@@ -50,9 +50,9 @@ struct ContentViewBanned: View {
                 }
             }
             
-            OnboardingViewBanned()
+            OnboardingViewBanned42()
             
-            LoadingViewBanned(showView: $showLoading)
+            LoadingViewBanned42(showView: $showLoading)
                 .opacity(showLoading ? 1: 0)
                 .onChange(of: showLoading) { newValue in
                     AppDelegate.orientationLock = .portrait
@@ -191,7 +191,7 @@ struct ContentViewBanned: View {
 }
 
 #Preview {
-    ContentViewBanned(showLoading: false)
+    ContentViewBanned42(showLoading: false)
 }
 
 
